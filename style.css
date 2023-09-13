@@ -16,7 +16,8 @@ body
     {
         width: 280px;
         height: 500px;
-        background-color: rgb(255, 255, 255,0.1);
+        background-color: rgb(255, 255, 255,0.5);
+        box-shadow: 10px 15px 15px rgb(0, 0, 0, 0.8);
         display: grid;
         align-items: center;
         justify-content: center;
@@ -48,6 +49,7 @@ body
 button
     {
         background-color: rgb(2, 15, 26);
+        box-shadow: 0 10px 10px rgb(0, 0, 0, 0.2);
         color: rgb(179, 182, 185);
         width: 60px;
         height: 70px;
